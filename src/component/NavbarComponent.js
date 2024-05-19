@@ -12,7 +12,7 @@ function NavbarComponent() {
             {["xl"].map((expand) => (
                 <Navbar key={expand} expand={expand} bg="light" className="mb-3">
                     <Container fluid>
-                        <Navbar.Brand href="#"><h2> Super Shop <i class="fa-brands fa-shopify"></i></h2></Navbar.Brand>
+                        <Navbar.Brand href="/#"><h2> Super Shop <i class="fa-brands fa-shopify"></i></h2></Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}

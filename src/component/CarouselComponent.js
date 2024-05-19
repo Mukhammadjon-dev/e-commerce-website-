@@ -17,7 +17,7 @@ function CarouselComponent() {
                     />
                     <Carousel.Caption>
                         <h3 className='carousel_heading'>Free Delivery Service</h3>
-                        <p className="carousel_text">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <p className="carousel_text">Delivery services can operate on a local, regional, or national levels.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="carousel_item" interval={2000}>
@@ -28,7 +28,7 @@ function CarouselComponent() {
                     />
                     <Carousel.Caption>
                         <h3 className='carousel_heading'>Rich variety of Products </h3>
-                        <p className="carousel_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p className="carousel_text">Different types of products could be found here.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className="carousel_item" interval={2000}>
@@ -39,7 +39,7 @@ function CarouselComponent() {
                     />
                     <Carousel.Caption>
                         <h3 className='carousel_heading'> Safe Payment Methods</h3>
-                        <p className="carousel_text">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <p className="carousel_text">Buy and pay online safely without spending too much time.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
